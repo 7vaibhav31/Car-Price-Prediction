@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Django
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ML artifacts (large trained model files)
+ml/artifacts/*.pkl
+
+# Data (raw dataset — often too large for git)
+ml/data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
