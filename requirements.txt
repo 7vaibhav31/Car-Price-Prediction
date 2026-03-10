@@ -20,6 +20,7 @@ ipython>=8.8.0
 Django>=4.2.0
 djangorestframework>=3.14.0
 django-cors-headers>=3.14.0
+whitenoise>=6.4.0
 
 # Database
 psycopg2-binary>=2.9.0

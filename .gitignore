@@ -24,8 +24,8 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# ML artifacts (large trained model files)
-ml/artifacts/*.pkl
+# ML artifacts
+# pipeline.pkl is committed so Vercel can load it at runtime
 
 # Data (raw dataset — often too large for git)
 ml/data/*.csv
